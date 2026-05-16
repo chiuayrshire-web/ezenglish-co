@@ -3,352 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EZ English - Learn Languages & Math Online</title>
+  <title>EZ English - Learn Languages & Math</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <script src="js/main.js" defer></script>
 </head>
 <body>
-  <!-- Navigation Header -->
-  <header class="navbar">
-    <div class="container">
-      <div class="nav-wrapper">
-        <div class="logo">
-          <i class="fas fa-book-open"></i>
-          <span>EZ English</span>
-        </div>
-        <nav class="nav-menu">
-          <a href="#home" class="nav-link">Home</a>
-          <a href="#courses" class="nav-link">Courses</a>
-          <a href="#features" class="nav-link">Features</a>
-          <a href="#testimonials" class="nav-link">Testimonials</a>
-          <a href="#contact" class="nav-link">Contact</a>
-          <button class="btn btn-login">Login</button>
-          <button class="btn btn-signup">Sign Up</button>
-        </nav>
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div>
+  <header>
+    <img src="images/ezenglish-logo.png" alt="EZ English Logo" />
+    <nav>
+      <a href="#">Lessons</a>
+      <a href="#">Tutorials</a>
+      <a href="#">Quizzes</a>
+      <a href="#">Community</a>
+      <button class="login-btn">Login</button>
+    </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <h1>Learn English, French & Math <span class="highlight">The Easy Way</span></h1>
-      <p>Master languages and mathematics with interactive lessons designed for all levels.</p>
-      <div class="hero-buttons">
-        <button class="btn btn-primary btn-lg">Start Learning Free</button>
-        <button class="btn btn-secondary btn-lg">Watch Demo</button>
-      </div>
-      <div class="hero-stats">
-        <div class="stat">
-          <h3>50K+</h3>
-          <p>Active Students</p>
-        </div>
-        <div class="stat">
-          <h3>100+</h3>
-          <p>Courses</p>
-        </div>
-        <div class="stat">
-          <h3>4.9★</h3>
-          <p>Rating</p>
-        </div>
-      </div>
-    </div>
-    <div class="hero-image">
-      <div class="hero-graphic">
-        <i class="fas fa-graduation-cap"></i>
-      </div>
-    </div>
+  <section class="hero">
+    <h1>Learn English the Easy Way!</h1>
+    <p>Master English with fun and simple lessons.</p>
+    <button class="cta">Get Started</button>
   </section>
 
-  <!-- Courses Section -->
-  <section id="courses" class="courses">
-    <div class="container">
-      <h2>Our Courses</h2>
-      <p class="section-subtitle">Choose from our comprehensive learning programs</p>
-      
-      <div class="courses-grid">
-        <!-- English Course -->
-        <div class="course-card">
-          <div class="course-icon">
-            <i class="fas fa-language"></i>
-          </div>
-          <h3>English Mastery</h3>
-          <p>Learn English from basics to advanced levels with interactive lessons and real-world examples.</p>
-          <ul class="course-features">
-            <li><i class="fas fa-check"></i> Grammar & Vocabulary</li>
-            <li><i class="fas fa-check"></i> Speaking & Listening</li>
-            <li><i class="fas fa-check"></i> Writing Skills</li>
-            <li><i class="fas fa-check"></i> 50+ Lessons</li>
-          </ul>
-          <button class="btn btn-outline">Explore Course</button>
-        </div>
-
-        <!-- French Course -->
-        <div class="course-card">
-          <div class="course-icon french">
-            <i class="fas fa-flag"></i>
-          </div>
-          <h3>French Basics & Beyond</h3>
-          <p>Start with essential French phrases and progress to fluent conversations with native speakers.</p>
-          <ul class="course-features">
-            <li><i class="fas fa-check"></i> Pronunciation Guide</li>
-            <li><i class="fas fa-check"></i> Conversational French</li>
-            <li><i class="fas fa-check"></i> Cultural Insights</li>
-            <li><i class="fas fa-check"></i> 40+ Lessons</li>
-          </ul>
-          <button class="btn btn-outline">Explore Course</button>
-        </div>
-
-        <!-- Math Course -->
-        <div class="course-card">
-          <div class="course-icon math">
-            <i class="fas fa-calculator"></i>
-          </div>
-          <h3>Math Fundamentals</h3>
-          <p>Master mathematics from arithmetic to advanced algebra with step-by-step problem solving.</p>
-          <ul class="course-features">
-            <li><i class="fas fa-check"></i> Arithmetic & Algebra</li>
-            <li><i class="fas fa-check"></i> Geometry & Calculus</li>
-            <li><i class="fas fa-check"></i> Practice Problems</li>
-            <li><i class="fas fa-check"></i> 60+ Lessons</li>
-          </ul>
-          <button class="btn btn-outline">Explore Course</button>
-        </div>
-      </div>
-    </div>
+  <section class="languages">
+    <h2>🇫🇷 Basic French Lesson</h2>
+    <p>Bonjour — Hello<br>Je m'appelle — My name is…<br>Comment ça va ? — How are you?</p>
+    <button class="cta red">Start French Lesson</button>
   </section>
 
-  <!-- Features Section -->
-  <section id="features" class="features">
-    <div class="container">
-      <h2>Why Choose EZ English?</h2>
-      <p class="section-subtitle">Everything you need to succeed</p>
-      
-      <div class="features-grid">
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-chart-line"></i>
-          </div>
-          <h3>Track Progress</h3>
-          <p>Monitor your learning journey with detailed progress reports and achievement badges.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-users"></i>
-          </div>
-          <h3>Community Support</h3>
-          <p>Connect with learners worldwide, share tips, and practice together in our active community.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-mobile-alt"></i>
-          </div>
-          <h3>Learn Anywhere</h3>
-          <p>Access courses on desktop, tablet, or mobile. Learn at your own pace, anytime, anywhere.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-award"></i>
-          </div>
-          <h3>Certifications</h3>
-          <p>Earn recognized certificates upon course completion to showcase your achievements.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-gamepad"></i>
-          </div>
-          <h3>Gamified Learning</h3>
-          <p>Complete quizzes, earn points, and compete on leaderboards for a fun learning experience.</p>
-        </div>
-
-        <div class="feature-box">
-          <div class="feature-icon">
-            <i class="fas fa-headset"></i>
-          </div>
-          <h3>24/7 Support</h3>
-          <p>Get help anytime with our dedicated support team and comprehensive FAQ section.</p>
-        </div>
-      </div>
-    </div>
+  <section class="math">
+    <h2>🧮 Learn Math with EZ English</h2>
+    <ul>
+      <li>Basic Arithmetic — 2 + 2 = 4</li>
+      <li>Fractions & Decimals — ½ = 0.5</li>
+      <li>Geometry Basics — Area = length × width</li>
+      <li>Algebra Essentials — x + 5 = 10</li>
+    </ul>
+    <button class="cta orange">Start Math Lesson</button>
   </section>
 
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="testimonials">
-    <div class="container">
-      <h2>What Students Say</h2>
-      <p class="section-subtitle">Real feedback from our community</p>
-      
-      <div class="testimonials-grid">
-        <div class="testimonial-card">
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"EZ English made learning so easy and fun! I improved my English skills in just 3 months."</p>
-          <div class="testimonial-author">
-            <h4>Maria Santos</h4>
-            <p>Student from Philippines</p>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"The French course is amazing! The pronunciation guide helped me so much. Highly recommended!"</p>
-          <div class="testimonial-author">
-            <h4>Jean Dupont</h4>
-            <p>French Language Learner</p>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="rating">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"Finally, a math course that makes sense! The step-by-step solutions are incredibly helpful."</p>
-          <div class="testimonial-author">
-            <h4>Alex Johnson</h4>
-            <p>Math Enthusiast</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing Section -->
-  <section class="pricing">
-    <div class="container">
-      <h2>Simple, Transparent Pricing</h2>
-      <p class="section-subtitle">Choose the plan that fits your needs</p>
-      
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <h3>Free Trial</h3>
-          <div class="price">$0</div>
-          <p>Perfect for trying out</p>
-          <ul>
-            <li><i class="fas fa-check"></i> 5 Sample Lessons</li>
-            <li><i class="fas fa-check"></i> Basic Quizzes</li>
-            <li><i class="fas fa-times"></i> Certificates</li>
-            <li><i class="fas fa-times"></i> Priority Support</li>
-          </ul>
-          <button class="btn btn-outline">Get Started</button>
-        </div>
-
-        <div class="pricing-card featured">
-          <div class="badge">Most Popular</div>
-          <h3>Pro</h3>
-          <div class="price">$9.99<span>/month</span></div>
-          <p>For serious learners</p>
-          <ul>
-            <li><i class="fas fa-check"></i> All Courses</li>
-            <li><i class="fas fa-check"></i> Unlimited Lessons</li>
-            <li><i class="fas fa-check"></i> Certificates</li>
-            <li><i class="fas fa-check"></i> Email Support</li>
-          </ul>
-          <button class="btn btn-primary">Subscribe Now</button>
-        </div>
-
-        <div class="pricing-card">
-          <h3>Premium</h3>
-          <div class="price">$19.99<span>/month</span></div>
-          <p>For maximum benefit</p>
-          <ul>
-            <li><i class="fas fa-check"></i> All from Pro</li>
-            <li><i class="fas fa-check"></i> 1-on-1 Tutoring</li>
-            <li><i class="fas fa-check"></i> Priority Support</li>
-            <li><i class="fas fa-check"></i> Lifetime Access</li>
-          </ul>
-          <button class="btn btn-outline">Subscribe Now</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA Section -->
-  <section class="cta">
-    <div class="container">
-      <h2>Ready to Start Learning?</h2>
-      <p>Join thousands of students achieving their learning goals</p>
-      <button class="btn btn-primary btn-lg">Start Your Free Trial Today</button>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h4>About EZ English</h4>
-          <p>Making quality education accessible to everyone around the world through innovative online learning.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Follow Us</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 EZ English. All rights reserved. | Made with <i class="fas fa-heart"></i> for learners worldwide</p>
-      </div>
-    </div>
+  <footer>
+    <p>© 2026 EZ English | About | Contact | Privacy Policy | Terms of Service</p>
   </footer>
-
-  <!-- Modal for Login -->
-  <div id="loginModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Login to EZ English</h2>
-      <form>
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit" class="btn btn-primary">Login</button>
-        <p>Don't have an account? <a href="#signup">Sign up here</a></p>
-      </form>
-    </div>
-  </div>
 </body>
 </html>
